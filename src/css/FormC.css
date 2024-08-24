@@ -1,0 +1,32 @@
+/* FormC.css */
+
+.form-container {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-control {
+  background-color: #ff0; /* Fondo amarillo para los campos de texto */
+  border: 1px solid #000; /* Borde negro */
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545; /* Borde rojo para campos inválidos */
+}
+
+.btn-primary {
+  background-color: #ff0; /* Fondo amarillo para el botón */
+  border: none; /* Sin borde */
+  color: #000; /* Texto negro */
+}
+
+.btn-primary:hover {
+  background-color: #e0e0e0; /* Color al pasar el ratón (opcional) */
+  color: #000; /* Texto negro */
+}
+
+.text-danger {
+  color: #dc3545; /* Color rojo para los mensajes de error */
+}
